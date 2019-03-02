@@ -13,4 +13,5 @@ import datetime as date
 import pandas as pd
 
 def home(request):
-    return render(request, 'index.html' , {})
+    return render(request, 'connector/src/app/pages/dashboard/dashboard.html' , {})
+
